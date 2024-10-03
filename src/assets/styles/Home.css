@@ -1,0 +1,30 @@
+.home-container {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+}
+
+.toolbar {
+    background-color: #f4f5f7; 
+    padding: 0.5rem 1rem;
+    border: none;
+    margin: 0;
+}
+
+.content-area {
+    flex-grow: 1;
+    background-color: #f4f5f7;
+    padding: 1rem;
+}
+
+
+.p-avatar {
+    margin-left: 1rem;
+}

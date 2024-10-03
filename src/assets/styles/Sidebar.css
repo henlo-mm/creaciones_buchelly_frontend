@@ -1,0 +1,28 @@
+.sidebar-container {
+    width: 250px; 
+    background-color: #f4f5f7; 
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.sidebar-menu-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.p-menu ul {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+}
+
+
+
+.logout-item {
+    margin-top: auto; 
+    margin-bottom: 1rem; 
+}
+
