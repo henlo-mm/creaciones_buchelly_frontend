@@ -12,17 +12,46 @@
     flex-direction: column;
 }
 
+.p-menuitem-link {
+    color: #3b4a6b;
+    font-size: 14px;
+    padding: 0.75rem 1rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.p-menuitem-link:hover {
+    background-color: #f4f5f7; 
+    border-radius: 0.5rem;
+}
+.p-menuitem-link .pi {
+    color: #3336FF;
+    font-size: 0.9rem; 
+    margin-right: 0.1rem;
+}
+.p-submenu-header {
+    color: #3336FF; 
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 1rem 1rem 0.5rem;
+}
+
+.p-menuitem-active .p-menuitem-link {
+    color: #0f172a; 
+    font-weight: bold; 
+}
+
 .p-menu ul {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
     height: 100%;
+    margin-left: 0.5rem;
 }
-
-
 
 .logout-item {
     margin-top: auto; 
     margin-bottom: 1rem; 
+    color: #3b4a6b;
 }
 

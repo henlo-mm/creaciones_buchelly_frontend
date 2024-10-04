@@ -1,4 +1,4 @@
-.login-container {
+.register-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,7 @@
     overflow: hidden;
 }
 
-.login-container::before {
+.register-container::before {
     content: "";
     position: absolute;
     width: 150%;
@@ -19,9 +19,7 @@
     animation: rotate 15s linear infinite;
 }
 
-
-
-.login-box {
+.register-box {
     background-color: white;
     padding: 2rem;
     border-radius: 8px;
@@ -31,7 +29,7 @@
     z-index: 1;
 }
 
-.login-title {
+.register-title {
     text-align: center;
     margin-bottom: 1.5rem;
     font-size: 1.5rem;
@@ -39,34 +37,22 @@
     color: #333;
 }
 
-.login-field {
+.register-field {
     margin-bottom: 1.5rem;
 }
 
-.login-options {
+.register-terms {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-bottom: 1.5rem;
 }
 
-.login-remember {
-    display: flex;
-    align-items: center;
-}
-
-.login-remember-label {
+.register-terms-label {
     margin-left: 0.5rem;
     font-size: 0.9rem;
 }
 
-.login-reset {
-    color: #4F46E5;
-    font-size: 0.9rem;
-    text-decoration: none;
-}
-
-.login-button {
+.register-button {
     width: 100%;
     padding: 1rem;
     background-color: #4F46E5;
@@ -76,7 +62,7 @@
     border-radius: 5px;
 }
 
-.login-register-link {
+.register-login-link {
     text-align: center;
     margin-top: 1rem;
 }

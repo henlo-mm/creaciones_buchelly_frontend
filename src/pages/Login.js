@@ -41,9 +41,15 @@ const Login = () => {
                         <InputText type="checkbox" id="remember" />
                         <label htmlFor="remember" className="login-remember-label">Recordarme</label>
                     </div>
-                    <a href="#" className="login-reset">Recuperar contraseña</a>
+                    <span className="login-reset" onClick={() => navigate('/forgot-password')} style={{ cursor: 'pointer', color: '#4F46E5' }}>
+                        Recuperar contraseña
+                    </span>
                 </div>
                 <Button label="Ingresar" icon="pi pi-sign-in" onClick={handleLogin} className="login-button" />
+                <p className="login-register-link">
+                    ¿No tienes una cuenta? <a href="/register">Regístrate</a>
+                </p>
+
             </div>
         </div>
     );
